@@ -189,6 +189,11 @@ class HomeContainer extends React.Component<{}, IState> {
     });
   };
 
+  public onUndo: () => void = () => {
+    this.todoZModel.undo();
+    this.setState({ todoS: this.todoZModel.todoS });
+  };
+
   public render(): JSX.Element {
     const { categories, currentTodo, todoS, loading, fetchLoading, error } = this.state;
     if (error) {
@@ -214,6 +219,7 @@ class HomeContainer extends React.Component<{}, IState> {
           removeTodo={this.removeTodo}
           toggleTodo={this.toggleTodo}
           selectTodo={this.selectTodo}
+          onUndo={this.onUndo}
         />
       </React.Fragment>
     );

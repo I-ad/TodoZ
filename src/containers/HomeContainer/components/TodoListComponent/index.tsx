@@ -11,6 +11,8 @@ interface IProps {
   toggleTodo(id: string): Promise<void>;
 
   selectTodo(id: string): void;
+
+  onUndo(): void;
 }
 
 interface IState {
@@ -105,6 +107,7 @@ class TodoListComponent extends React.Component<IProps, IState> {
               <button value={item.id} onClick={this.handleOnRemove}>delete</button>
             </li>
           ))}
+          <button onClick={this.props.onUndo}>Undo Demo(just change local data)</button>
         </ul>
       </React.Fragment>
     );
