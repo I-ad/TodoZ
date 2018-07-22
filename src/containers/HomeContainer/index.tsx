@@ -1,5 +1,5 @@
 import * as React from 'react';
-import TodoZ from '../../models/TodoZ';
+import TodoZ from './models/TodoZ';
 import { ITodo } from '../../typings';
 import TodoFormControl from './components/TodoFormControl';
 import TodoListComponent from './components/TodoListComponent';

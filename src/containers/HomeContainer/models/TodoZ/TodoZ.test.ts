@@ -1,8 +1,9 @@
-import { fakeTasksList } from '../../services/__mocks__/getTasksList';
-import { ITodo } from '../../typings';
+import { fakeTasksList } from '../../../../services/__mocks__/getTasksList';
+import { ITodo } from '../../../../typings/index';
 import TodoZ from './index';
 
-jest.mock('../../services/getTasksList');
+jest.mock('../../../../services/getTasksList');
+
 const TodoSList: ITodo[] = [{
   id:       '1',
   priority: 'low',

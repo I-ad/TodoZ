@@ -4,8 +4,8 @@ import {
   getTasksList,
   removeItemFromTaskList,
   updateItemOnTaskList,
-} from '../../services/getTasksList';
-import { ITodo } from '../../typings/index';
+} from '../../../../services/getTasksList';
+import { ITodo } from '../../../../typings/index';
 
 export default class TodoZ {
   private _todoS: { [p: string]: ITodo } = {};

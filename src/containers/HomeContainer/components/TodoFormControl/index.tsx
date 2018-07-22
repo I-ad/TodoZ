@@ -163,8 +163,11 @@ class TodoFormControl extends React.Component<IProps, IState> {
   };
 
   public categoryValidation: (value: string) => string = (value) => {
+    const index = this.props.categories.indexOf(value);
     let error = '';
-    if (!value) {
+    if (!value || value === '') {
+      error = 'please select one';
+    } else if (index === -1) {
       error = 'please select one';
     } else {
       error = '';
