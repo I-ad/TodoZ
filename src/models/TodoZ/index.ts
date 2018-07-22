@@ -91,4 +91,9 @@ export default class TodoZ {
     const result = await AddNewItemToCategoryList(category);
     this._categories.push(result);
   }
+
+  // todo need test
+  public getTodoById(id: string): ITodo {
+    return this._todoS[id];
+  }
 }

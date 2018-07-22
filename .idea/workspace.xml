@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="803736a4-e37c-4e9b-85d1-3227f8a336f2" name="Default" comment="" />
+    <list default="true" id="803736a4-e37c-4e9b-85d1-3227f8a336f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/HomeContainer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/TodoZ/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/TodoZ/index.ts" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -21,13 +27,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TodoZ.test.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/models/TodoZ/TodoZ.test.ts">
+      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="115" column="79" selection-start-line="115" selection-start-column="79" selection-end-line="115" selection-end-column="79" />
+            <state relative-caret-position="421">
+              <caret line="177" column="4" lean-forward="true" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
               <folding>
-                <element signature="e#0#70#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#3906#4173#0" />
+                <element signature="e#4257#4776#0" />
+                <element signature="e#4791#4851#0" />
               </folding>
             </state>
           </provider>
@@ -38,9 +47,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="tsx typescript" />
         <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,8 +66,11 @@
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/src/services/__mocks__/getTasksList.ts" />
         <option value="$PROJECT_DIR$/src/services/getTasksList.ts" />
-        <option value="$PROJECT_DIR$/src/models/TodoZ/index.ts" />
         <option value="$PROJECT_DIR$/src/models/TodoZ/TodoZ.test.ts" />
+        <option value="$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.ts" />
+        <option value="$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx" />
+        <option value="$PROJECT_DIR$/src/models/TodoZ/index.ts" />
+        <option value="$PROJECT_DIR$/src/containers/HomeContainer/index.tsx" />
       </list>
     </option>
   </component>
@@ -84,7 +100,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -106,6 +122,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -127,6 +144,19 @@
               <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
               <item name="todoz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeContainer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todoz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -135,19 +165,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
               <item name="TodoZ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="__mocks__" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,53 +260,53 @@
       <option name="presentableId" value="Default" />
       <updated>1532152924631</updated>
       <workItem from="1532152926173" duration="3470000" />
-      <workItem from="1532224992065" duration="8577000" />
+      <workItem from="1532224992065" duration="10580000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TESTS - 2018.07.21 at 23h 30m 09s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 10m 54s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 30m 35s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 11m 13s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 30m 43s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 12m 00s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 31m 42s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 12m 06s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 33m 13s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 12m 58s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 35m 17s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 13m 11s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 35m 54s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 13m 44s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 38m 49s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 13m 52s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 39m 52s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 14m 26s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.21 at 23h 40m 27s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 14m 35s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12047000" />
+    <option name="totallyTimeSpent" value="14050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18685831" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.044160943" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Quokka" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.8326489" />
@@ -352,16 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/getTasksList.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/__mocks__/getTasksList.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -369,19 +376,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/TodoZ/index.ts">
+    <entry file="file://$PROJECT_DIR$/src/models/TodoZ/TodoZ.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="92" column="3" lean-forward="true" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
+        <state relative-caret-position="504">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/TodoZ/TodoZ.test.ts">
+    <entry file="file://$PROJECT_DIR$/src/services/getTasksList.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="115" column="79" selection-start-line="115" selection-start-column="79" selection-end-line="115" selection-end-column="79" />
+        <state relative-caret-position="1908">
+          <caret line="53" column="42" lean-forward="true" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
           <folding>
-            <element signature="e#0#70#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/TodoZ/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="94" column="19" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="177" column="4" lean-forward="true" selection-start-line="177" selection-start-column="4" selection-end-line="177" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#3906#4173#0" />
+            <element signature="e#4257#4776#0" />
+            <element signature="e#4791#4851#0" />
           </folding>
         </state>
       </provider>
