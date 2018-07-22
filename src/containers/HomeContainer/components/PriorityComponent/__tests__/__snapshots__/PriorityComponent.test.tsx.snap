@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<React.Fragment>
+  <label>
+    Priority
+  </label>
+  <input
+    checked={true}
+    name="priority"
+    onChange={[Function]}
+    type="radio"
+    value="low"
+  />
+   low
+  <input
+    checked={false}
+    name="priority"
+    onChange={[Function]}
+    type="radio"
+    value="mid"
+  />
+   mid
+  <input
+    checked={false}
+    name="priority"
+    onChange={[Function]}
+    type="radio"
+    value="high"
+  />
+   high
+  <p>
+    error
+  </p>
+</React.Fragment>
+`;

@@ -1,6 +1,8 @@
 import * as React from 'react';
 import TodoZ from '../../models/TodoZ';
 import { ITodo } from '../../typings';
+import TodoFormControl from './components/TodoFormControl';
+import TodoListComponent from './components/TodoListComponent';
 
 export interface IState {
   loading: boolean;
@@ -34,8 +36,8 @@ class HomeContainer extends React.Component<{}, IState> {
     };
   }
 
-  public componentDidMount(): void {
-    //
+  public async componentDidMount(): Promise<void> {
+    await this.fetchTodoSList();
   }
 
   public fetchTodoSList: () => Promise<void> = async () => {
@@ -178,10 +180,25 @@ class HomeContainer extends React.Component<{}, IState> {
   };
 
   public render(): JSX.Element {
+    const { categories, currentTodo, todoS } = this.state;
     return (
-      <div>
-        <h1>Hello from HomeContainer</h1>
-      </div>
+      <React.Fragment>
+        <TodoFormControl
+          initialValues={currentTodo}
+          categories={categories}
+          addTodo={this.addTodo}
+          addNewCategory={this.addNewCategory}
+          reInit={this.reInit}
+          editTodo={this.editTodo}
+        />
+        <TodoListComponent
+          list={todoS}
+          categories={categories}
+          removeTodo={this.removeTodo}
+          toggleTodo={this.toggleTodo}
+          selectTodo={this.selectTodo}
+        />
+      </React.Fragment>
     );
   }
 }
