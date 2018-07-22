@@ -17,7 +17,6 @@ class PriorityComponent extends React.Component<IProps> {
 
   public render(): JSX.Element {
     const { value, onChange, error, isSubmitted, isTouched } = this.props;
-    console.log(value);
     return (
       <React.Fragment>
         <label>Priority</label>

@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="803736a4-e37c-4e9b-85d1-3227f8a336f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/HomeContainer/components/PriorityComponent/__tests__/PriorityComponent.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/HomeContainer/components/PriorityComponent/__tests__/__snapshots__/PriorityComponent.test.tsx.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/HomeContainer/components/PriorityComponent/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/HomeContainer/components/TodoFormControl/TodoFormControl.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/HomeContainer/components/TodoFormControl/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/HomeContainer/components/TodoListComponent/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HomeContainer/components/PriorityComponent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomeContainer/components/PriorityComponent/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomeContainer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomeContainer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,14 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/components/TodoFormControl/index.tsx">
+      <file leaf-file-name="HomeContainer.test.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -71,14 +61,15 @@
         <option value="$PROJECT_DIR$/src/services/getTasksList.ts" />
         <option value="$PROJECT_DIR$/src/models/TodoZ/TodoZ.test.ts" />
         <option value="$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.ts" />
-        <option value="$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx" />
         <option value="$PROJECT_DIR$/src/models/TodoZ/index.ts" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/containers/HomeContainer/components/TodoListComponent/index.tsx" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/containers/HomeContainer/components/TodoFormControl/TodoFormControl.test.tsx" />
-        <option value="$PROJECT_DIR$/src/containers/HomeContainer/index.tsx" />
         <option value="$PROJECT_DIR$/src/containers/HomeContainer/components/TodoFormControl/index.tsx" />
+        <option value="$PROJECT_DIR$/src/containers/HomeContainer/index.tsx" />
+        <option value="$PROJECT_DIR$/src/containers/HomeContainer/components/PriorityComponent/index.tsx" />
+        <option value="$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx" />
       </list>
     </option>
   </component>
@@ -143,41 +134,6 @@
               <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
               <item name="todoz" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeContainer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeContainer" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="todoz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todoz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeContainer" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="TodoFormControl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -213,6 +169,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/containers/HomeContainer" />
       <recent name="$PROJECT_DIR$/src/containers/HomeContainer/components" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -273,44 +230,44 @@
       <option name="presentableId" value="Default" />
       <updated>1532152924631</updated>
       <workItem from="1532152926173" duration="3470000" />
-      <workItem from="1532224992065" duration="11463000" />
+      <workItem from="1532224992065" duration="12397000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TESTS - 2018.07.22 at 00h 22m 48s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 46m 21s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 23m 49s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 46m 55s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 24m 30s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 47m 33s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 25m 05s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 47m 39s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 27m 07s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 48m 34s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 27m 14s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 48m 58s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 28m 37s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 49m 06s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 28m 51s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 49m 16s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 29m 52s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 49m 35s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="TESTS - 2018.07.22 at 00h 30m 01s.xml">
+    <history-entry file="TESTS - 2018.07.22 at 00h 49m 56s.xml">
       <configuration name="TESTS" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14933000" />
+    <option name="totallyTimeSpent" value="15867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -318,13 +275,13 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2767419" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13248283" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Quokka" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24337585" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24337585" />
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.20020534" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15714286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15714286" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info anchor="right" id="LuaJ" order="3" />
@@ -409,16 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/models/TodoZ/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -454,23 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/components/PriorityComponent/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="185" column="16" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/components/TodoListComponent/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -483,11 +413,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/components/TodoFormControl/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="811">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="176" column="4" selection-start-line="176" selection-start-column="4" selection-end-line="176" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!block;n#IState#0" />
+            <element signature="n#!!block;n#constructor#0;n#HomeContainer#0" />
+            <element signature="e#583#928#0" />
+            <element signature="e#775#921#0" />
+            <element signature="n#!!block;n#componentDidMount#0;n#HomeContainer#0" />
+            <element signature="e#1084#1907#0" />
+            <element signature="e#1151#1517#0" />
+            <element signature="e#1301#1407#0" />
+            <element signature="e#1532#1662#0" />
+            <element signature="e#1675#1903#0" />
+            <element signature="e#2519#2761#0" />
+            <element signature="e#2776#2887#0" />
+            <element signature="e#3305#3414#0" />
+            <element signature="e#3570#3812#0" />
+            <element signature="e#3827#3938#0" />
+            <element signature="e#4071#4336#0" />
+            <element signature="e#4432#4705#0" />
+            <element signature="e#4720#4835#0" />
+            <element signature="e#4956#5156#0" />
+            <element signature="e#4976#5150#0" />
+            <element signature="e#4997#5143#0" />
+            <element signature="n#!!block;n#render#0;n#HomeContainer#0" />
+            <element signature="e#5296#5310#0" />
+            <element signature="e#5369#5401#0" />
+            <element signature="e#5444#5985#0" />
+            <element signature="e#5504#5749#0" />
+            <element signature="e#5758#5961#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/components/PriorityComponent/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HomeContainer/HomeContainer.test.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>

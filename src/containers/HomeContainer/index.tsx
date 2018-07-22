@@ -67,6 +67,7 @@ class HomeContainer extends React.Component<{}, IState> {
   };
 
   public addTodo: (todo: ITodo) => Promise<void> = async (todo) => {
+    this.setState({ loading: true });
     try {
       await this.todoZModel.add(todo);
       console.log('addTodo on HomeContainer start');
@@ -80,11 +81,13 @@ class HomeContainer extends React.Component<{}, IState> {
       this.setState({ error });
     }
     finally {
+      this.setState({ loading: false });
       console.log('addTodo on HomeContainer end');
     }
   };
 
   public removeTodo: (id: string) => Promise<void> = async (id) => {
+    this.setState({ loading: true });
     try {
       await this.todoZModel.remove(id);
       console.log('removeTodo on HomeContainer start');
@@ -98,12 +101,14 @@ class HomeContainer extends React.Component<{}, IState> {
       this.setState({ error });
     }
     finally {
+      this.setState({ loading: false });
       console.log('removeTodo on HomeContainer end');
     }
 
   };
 
   public editTodo: (todo: ITodo) => Promise<void> = async (todo) => {
+    this.setState({ loading: true });
     try {
       await this.todoZModel.update(todo);
       console.log('editTodo on HomeContainer start');
@@ -117,11 +122,13 @@ class HomeContainer extends React.Component<{}, IState> {
       this.setState({ error });
     }
     finally {
+      this.setState({ loading: false });
       console.log('editTodo on HomeContainer end');
     }
   };
 
   public toggleTodo: (id: string) => Promise<void> = async (id) => {
+    this.setState({ loading: true });
     try {
       await this.todoZModel.toggle(id);
       console.log('toggleTodo on HomeContainer start');
@@ -135,6 +142,7 @@ class HomeContainer extends React.Component<{}, IState> {
       this.setState({ error });
     }
     finally {
+      this.setState({ loading: false });
       console.log('toggleTodo on HomeContainer end');
     }
   };
@@ -149,6 +157,7 @@ class HomeContainer extends React.Component<{}, IState> {
   };
 
   public addNewCategory: (category: string) => Promise<void> = async (category) => {
+    this.setState({ loading: true });
     try {
       await this.todoZModel.addCategory(category);
       console.log('addNewCategory on HomeContainer start');
@@ -162,6 +171,7 @@ class HomeContainer extends React.Component<{}, IState> {
       this.setState({ error });
     }
     finally {
+      this.setState({ loading: false });
       console.log('addNewCategory on HomeContainer end');
     }
   };
@@ -180,9 +190,16 @@ class HomeContainer extends React.Component<{}, IState> {
   };
 
   public render(): JSX.Element {
-    const { categories, currentTodo, todoS } = this.state;
+    const { categories, currentTodo, todoS, loading, fetchLoading, error } = this.state;
+    if (error) {
+      return <div>there is an error</div>;
+    }
+    if (fetchLoading) {
+      return <div>trying to fetch data...</div>
+    }
     return (
       <React.Fragment>
+        {loading && (<div>Loading...</div>)}
         <TodoFormControl
           initialValues={currentTodo}
           categories={categories}
